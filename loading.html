@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Design</title>
+    <link href="https://fonts.googleapis.com/css?family=Krona+One|Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+}
+ 
+ 
+
+.main-container{
+    height: 100%;
+    width: 210px;
+    background-color:  #333745;
+    margin:3.7rem 4.8rem  ;
+    position:   relative;
+    left: 50%;
+    transform: translate(-90%);
+    padding: 4rem 0;
+    
+}
+
+.left{
+
+    position: absolute;
+    height: 5rem;
+    width: 2px;
+    background-color: #875638;
+    left: 2rem;
+    top: -5rem;
+}
+
+.right{
+    position: absolute;
+    height:5rem;
+    width: 2px;
+    background-color:#875638;
+    right: 2rem;
+    top: -5rem;
+}
+
+
+.menu-text{
+    height: 100px;
+    width: 160px;
+    background-color:  rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 0.2rem rgb(75, 74, 74);
+    margin-left: 3.4rem;
+    padding-left: 2vw;
+    margin-bottom: 5rem;
+    font-family: 'Lato', ;
+     
+
+    
+}
+
+.text-container{
+    text-align: center;
+    color: azure;
+
+}
+.top-heading-text{
+    font-size: 2.3rem;
+    text-transform: uppercase;
+     top: 2.7rem;
+     
+    transform: translate(-20%);
+    position: absolute;
+    letter-spacing: 10px;
+    
+
+}
+.month-text{
+    padding-top:1.5rem;
+    font-size: 1rem;
+    text-align: left;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     margin-bottom: auto;
+    
+}
+.underline{
+    position: absolute;
+    height:1px;
+    width: 55%;
+    background-color: rgba(196, 195, 195, 0.4);
+    
+    
+}
+.About-me{
+    padding-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.7rem;
+    
+    opacity: 0.6;
+    position: absolute;
+    font-family: 'Lato', ;
+    
+
+
+}
+.sub-text{
+    display: block;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+.dish-menu{
+    height: 110px;
+    width: 250px;
+    background-color:#f8c25c;
+    margin-left: 50%;
+    transform: translate(-50%);
+    box-shadow: 1px 1px 1px rgb(65, 48, 48);
+    margin-bottom: 3rem;
+     
+}
+.main-image-container{
+    height: 100px;
+    width:250px ;
+    background-color:azure;
+    margin-left: 50%;
+    transform: translate(-55%);
+    top: -0.6rem;
+    position: absolute;
+    box-shadow: 1px 1px 1px rgb(77, 56, 56);
+}
+.image-container{
+    position: absolute;
+  height: 120px;
+  width: 130px;  
+  
+  right: 0;
+  top: -0.7rem;
+  background-image: url(https://i.imgur.com/INHEG0N.jpg);
+  background-size: cover;
+  box-shadow: 1px 1px 1px rgb(77, 61, 61);
+}
+ 
+.title-heading{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    opacity: 0.4;
+    letter-spacing: 1px;
+   
+    
+    
+     
+    
+}
+.title-dish{
+    height: 100px;
+    width:120px ;
+    
+    text-align: center;
+
+}
+.title-details{
+    font-size: 10px;
+    text-transform: capitalize;
+    font-family: 'Lato', ;
+    opacity: 0.6;
+    padding: 4px;
+
+}
+
+.second-dish-menu{
+    height: 110px;
+    width: 250px;
+    background-color: #ffd708;
+    margin-left: 50%;
+    transform: translate(-55%);
+    box-shadow: 1px 1px 1px rgb(92, 75, 75);
+    margin-bottom: 5rem;
+     
+}
+.second-image-container{
+    height: 100px;
+    width: 190px;
+   
+    position: absolute;
+    right: -1rem;
+    bottom: 0;
+    background-image: url(https://i.imgur.com/YuzVNLF.jpg);
+    background-size: cover;
+    box-shadow: 1px 1px 1px rgb(77, 63, 63);
+
+}
+.second-text-container{
+    height: 100px;
+    width: 120px;
+    background-color:#fff;
+    position: absolute;
+    bottom: -1.5rem;
+    left: -3.7rem;
+    box-shadow: 1px 1px 1px rgb(82, 66, 66);
+    text-align: center;
+
+
+
+}
+.third-dish-menu{
+ height: 110px;
+width: 250px;
+background-color:#c6b895;
+margin-left: 50%;
+transform: translate(-50%);
+box-shadow:  1px 1px 1px rgb(145, 134, 134);
+ 
+}
+.third-image-container{
+    position: absolute;
+  height: 120px;
+  width: 130px;  
+  
+  right: 0;
+  top: -0.7rem;
+  background-image: url(https://i.imgur.com/lDisgfA.jpg);
+  background-size: cover;
+  box-shadow: 2px 2px 1px rgb(207, 203, 203);
+}
+.follow-btn{
+    background-color: #8d8dAA;
+    position: absolute;
+    bottom: -1rem;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    right: -1.4rem;
+    color: azure;
+    box-shadow: 1px 2px 1px rgb(78, 68, 68);
+
+
+}
+  </style>
+<body>
+    
+
+
+     
+<div class="main-container"> <div class="left"></div> <div class="right"></div><div class="menu-text">
+            <div class="text-container">
+                <h1 class="top-heading-text">Menu</h1>
+                <h1 class="month-text">febuaray</h1>
+                <div class="underline"></div>
+                <p class="About-me"> hello,i'm Alhama <span class="sub-text"> A ui designer</span></p>  
+            </div>
+           </div>
+           <div class="dish-menu">
+               <div class="main-image-container">
+                   <div class="title-dish">
+                       <h1 class="title-heading"> thai mango</h1>
+
+                       <p class="title-details">The 'Mango' is the National Fruit of India.There are over 100 varieties of mangoes in India </p>
+                   </div>
+                   <div class="image-container">
+                   </div>
+               </div>  </div>
+               <div class="second-dish-menu">
+                   <div class="second-image-container">
+                       <div class="second-text-container">
+                        <h1 class="title-heading">  rice & mango</h1>
+                        <p class="title-details"> the rice most important</br> grain consumed </br>by humans . There are </br>40,000 varieties</br> of rice   </p>
+                     </div>
+                   </div>
+               </div>
+
+               <div class="third-dish-menu">
+                <div class="main-image-container">
+                    <div class="title-dish">
+                        <h1 class="title-heading"> delicious food</h1>
+ 
+                        <p class="title-details"> All foods are very nice,</br> but some very fancy</br> and delicious foods are </br>steaks and caviar. </p>
+                    </div>
+                    <div class="third-image-container">
+                    </div>
+                </div>
+               </div>
+                <a class="follow-btn"href="https://www.sololearn.com/Profile/14713652">follow-me</a>
+             
+    </div>
+    </div>
+
+    
+ 
+
+    
+</body>
+</html>

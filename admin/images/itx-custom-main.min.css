@@ -1,0 +1,1219 @@
+﻿#vue_loader {
+	display: none !important;
+}
+
+/* FIX ECOMBSKA-9306 */
+@media screen and (max-width: 1024px) and (min-width: 128px) {
+	.myAccount .address .address-data > span {
+		float: left
+	}
+}
+/* END FIX ECOMBSKA-9306 */
+
+/* FIX DISTANCIA ENTRE PRECIOS */
+.prodInfo .prices .productPrice, .prodInfo .prices .oldPrice, .prodInfo .prices .newPrice {
+	margin-right: 10px;
+}
+/* END FIX DISTANCIA ENTRE PRECIOS */
+@media screen and (max-width: 768px) {
+	.footer-newsletter form input {
+		margin-right: 0;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.hide-full-mobile {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.footer-newsletter .flex {
+		display: block;
+	}
+}
+
+/* Ocultar PdP en paises No Venta hasta que tengamos PDF */
+.is-not-open-for-sale .footer-legal-privacy-policy {
+	display: none;
+}
+/* Ocultar PdP en paises No Venta hasta que tengamos PDF */ 
+ 
+
+/* FIX BACKGROUND BLANCO EN MODALES */
+.ui-dialog {
+	background-color: #FFFFFF;
+}
+
+.ui-dialog .modal {
+	margin: 0 -7px;
+}
+/* END FIX BACKGROUND BLANCO EN MODALES */
+
+/* FIX ECOMBSKA-9089 */
+.breadcrumb-text-capitalize {
+	text-transform: none;
+}
+/* END ECOMBSKA-9089 */
+
+/* FIX FOR SCARCITY */
+@media screen and (max-width: 768px) {
+	.cart-product-editable .cart-product-actions {
+		width: initial;
+		padding-left: 8px;
+	}
+	.cart-product-editable .cart-product-actions .product-price {
+		white-space: nowrap;
+	}
+}
+/* END FIX FOR SCARCITY */
+
+/* FIX ICONOS TELÉFONOS FOOTER */
+.ico-phone-fix {
+    background-position: -419px -723px;
+}
+.ico-phone-mobile {
+    background-position: -457px -724px;
+}
+/* END FIX ICONOS TELÉFONOS FOOTER */
+
+/* FIX ECOMBSKA-8551 */
+.klarna-info p {
+	margin-bottom: 20px;
+}
+.klarna-info p:last-child {
+	margin-bottom: 10px;
+}
+.klarna-info a {
+    border-bottom: 1px solid #000;	
+}
+.klarnaPayment .date-birth label {
+	float: none;
+	width: 100%;
+	font-weight: normal;
+	font-family: "bentonsansmedium";
+	font-size: 12px;
+	height: 35px;
+	line-height: 40px;
+	margin-bottom: 0;
+}
+.klarnaPayment input[type="text"] {
+    width: 100%;
+}
+/* END FIX ECOMBSKA-8551 */
+
+/* FIX VENTAS PRIVADAS */
+.exclusive-text {
+	position: absolute;
+    top: 3px;
+    right: 0;
+}
+@media only screen and (min-width: 1025px) {
+	.menu-fixed .main-menu-container-first-level .header-gender {	
+		padding: 13px 2px 12px 2px;
+	}
+}
+/* END FIX VENTAS PRIVADAS */
+
+/* FIX HIDE COMPANY SELECTOR IN MODALCONTACT */
+.contact-type-selector {display: none;}
+/* FIX HIDE COMPANY SELECTOR IN MODALCONTACT */
+
+.cookiesWarnLink {
+  width: 49%;
+  float: left;
+  padding: 0px 20px;
+}
+
+/* FIX NEW ON FIRST LEVEL */
+.mainMenu .main-menu-container-second-level .label-category:after {
+    margin-left: 5px;
+}
+/* END FIX NEW ON FIRST LEVEL */
+
+/* CAROUSEL TIPOLOGIES */
+.related-tipology .related-tipology-mask,
+.related-tipology.active .related-tipology-mask {
+	display: none;
+}
+
+.related-tipology {
+	opacity: 0.5;
+}
+.related-tipology.active {
+	opacity: 1;
+}
+/* END CAROUSEL TIPOLOGIES */
+
+/* FIX ESCONDER LINEAS TITULOS OLAPIC EN CAROUSEL */
+.olapicCar_titles > p,
+.olapic-showcase_titles > p {
+	display: none;
+}
+/* FIX ESCONDER LINEAS TITULOS OLAPIC EN CAROUSEL */
+
+/* FIX ESCONDER QR DEVOlUCIÓN */
+.fi_FI qr-image, .en_FI qr-image, .en_US qr-image, 
+.es_US qr-image, .en_SE qr-image, .sv_SE qr-image, 
+.fr_LU qr-image, .en_LU qr-image, .de_LU qr-image,
+.en_DK qr-image, .da_DK qr-image{display: none;} 
+/* END FIX ESCONDER QR DEVOlUCIÓN */
+
+#ItxCountriesPage .continent .country  {
+	white-space: initial;
+}
+
+/* FIX ECOMBSKA-7490 */
+@media screen and (max-width: 980px) and (min-width: 128px) {
+	.delivery-form-list .switch-tab:first-child {
+		padding: 10px 15px 0 15px;
+	}
+}
+/* END FIX ECOMBSKA-7490 */
+
+/* FIX QUICK SHOP ARROWS */
+#modal-qs .look-products-container .bx-wrapper .bx-controls a.bx-prev {
+	left: 0;
+	opacity: .8;
+}
+#modal-qs .look-products-container .bx-wrapper .bx-controls a.bx-next {
+	right: 0;
+	opacity: .8;
+}
+/* END FIX QUICK SHOP ARROWS */
+
+.tab-options-list,
+.tab-options-map {
+	display: table-cell;
+}
+
+#landingPageContainer .olapic .olapic-wall-widget {
+	margin-top: 25px;
+}
+
+grid-product.double-size .color-swatches {
+	visibility: hidden;
+}
+
+/* FIX ERROR MESSAGES */
+#itxCheckoutPage .field-error-message {
+	color: #FF6666;
+	clear: both;
+	font-size: 12px;
+	position: absolute;
+	min-width: 245px;
+	font-weight: normal;
+	bottom: inherit;
+	margin-top: 3px;
+}
+/* END FIX ERROR MESSAGES */
+
+/* FIX ECOMBSKA-7084 */
+@media screen and (max-width: 1024px) {
+  #iPageContent.recoverPass-container {
+    position: inherit !important;
+  }
+}
+/* END FIX ECOMBSKA-7084 */
+
+/* FIX CHINA CHAT */
+.itx-chat-place {
+	left: initial;
+	right: 28px;
+}
+/* END FIX CHINA CHAT */
+
+/* FIX IPAD */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.form-wrapper {
+		float: left;
+	}
+
+  
+}
+@media screen and (max-width: 1024px) and (min-width: 128px) {
+	ul.vList.sidebar-submenu-secondlevel > li {
+			min-height: 0;
+	}
+  .sidebar-submenu .hide {
+    display: none !important;
+  }
+}
+/* END FIX IPAD */
+
+/* FIX CHINA */
+#ItxCountriesPage .continent .country {
+  font-size: 11px;
+}
+
+#ItxCountriesPage .columns {
+	display: table;
+}
+#ItxCountriesPage .columns .col {
+	display: table-cell;
+}
+/* END FIX CHINA */
+
+/* FIX ECOMBSKA-7052 */
+.podForm .podFormBankInput.valid:after {
+  top: 43px;
+}
+/* END FIX ECOMBSKA-7052 */
+
+/* FIX OSX SIERRA BORDER RADIUS */
+button, .btn {
+	border-radius: 0;
+}
+/* END FIX OSX SIERRA BORDER RADIUS */
+
+/* UK NEW ON DROPPOINT */
+.en_GB.ItxCheckoutPage li.shipping-6-info .shipping-name-text:after {
+	content: "NEW!";
+	font-size: 12px;
+	margin-left: 10px;
+	color: #FF6666;
+}
+/* END UK NEW ON DROPPOINT */
+
+/* FIX ECOMBSKA- */
+@media only screen and (max-width: 600px) {
+	.checkoutHeader .phone-link-header {
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.checkoutHeader .phone-link-header {
+		font-size: 10px;
+	}
+}
+/* END FIX ECOMBSKA- */
+
+/* FIX ECOMBSKA- */
+.color-swatches .prodColorInfo {
+	white-space: nowrap;
+}
+/* END FIX ECOMBSKA- */
+
+/* FIX ECOMBSKA- */
+@media screen and (max-width: 1024px) {
+	ul.subList li {
+		text-transform: none;
+	}
+}
+.product-back-text br,
+.category-breadcrumb br {
+    display: none;
+}
+/* END FIX ECOMBSKA- */
+
+/*FIX ECOMBSKA-6995 */
+.order-history.myAccount {
+    min-height: auto;
+}
+/*END FIX ECOMBSKA-6995 */
+
+/* FIX HEADER LOGO */
+.header-left .header-left-element {
+	font-size: 0;
+	white-space: nowrap;
+}
+/* END FIX HEADER LOGO */
+
+/* LABEL BLUE */
+.subMenu a.label-category.BLUE:after,
+.sideBarDevices a.label-category.BLUE:after,
+.facets .label-category.BLUE a:after,
+.grid-filter-container .filter-content-element-link.label-category.BLUE span:after {
+	color: #00F;
+}
+
+/* cross selling */
+.cross-selling-container .bx-controls a.bx-prev {
+	left: -19px;
+}
+.cross-selling-container .bx-controls a.bx-next {
+	right: -19px;
+}
+@media screen and (max-width: 768px) {
+	.cross-selling-container .bx-controls a.bx-prev {
+		left: 15px;
+	}
+	.cross-selling-container .bx-controls a.bx-next {
+		right: 15px;
+	}
+}
+
+
+.privacy-policy-us strong {
+	font-weight: bold;
+}
+.localized-price {
+	white-space: nowrap
+}
+
+.joinUs .overlap {
+    margin: 0 0 40px 40px;
+}
+
+.myAccount.companyContact {
+	min-height: 0;
+}
+
+.address {
+	height: initial;
+}
+
+.main-menu-container li a {
+	padding: 13px 19px;
+}
+.main-menu-container li.active a {
+	padding: 13px 19px 11px 19px;
+}
+
+.filter-content-element .filter-content-element-link.active:hover .filter-content-element-image-delete,
+.filter-content-element .filter-content-element-link.active .filter-content-element-image-delete {
+	display: none;
+}
+
+/* FIX GUEST ORDERS MESSAGE */
+.ItxUserOrdersPage .myAccount-sections section:nth-child(5) > div p,
+.ItxUserOrdersPage .myAccount-sections section:nth-child(9) > div p {
+	background-color: #ABB8BE;
+	padding: 20px 45px 20px;
+	color: #FFF;
+}
+
+.ItxUserOrdersPage .myAccount-sections section:nth-child(5) > div p a,
+.ItxUserOrdersPage .myAccount-sections section:nth-child(9) > div p a {
+	border-color: #FFF;
+}
+/* END FIX GUEST ORDERS MESSAGE */
+
+/* FIX POPUP */
+.look-products .container-sizes {
+	margin: 5px 0 38px 0;
+}
+/* END FIX POPUP */
+
+/* FIX MARGIN BOTTOM NEWSLETTER */
+#ItxNewsletterPage.table {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) and (min-width: 128px) {
+	.sideBarDevices .sideBar-close {
+		margin-top: 0;
+	}
+}
+
+/* FIX STORE LOCATOR MY ACCOUNT */
+@media screen and (max-width: 768px) and (min-width: 128px) {
+	#itxAjaxStoreLocatorPage .table-cell {
+		display: block;
+	}
+}
+/* END FIX STORE LOCATOR MY ACCOUNT */
+
+/* FIX WIDTH menuContainer */
+#menuContainer.container-fluid {
+	max-width: inherit;
+}
+/* END FIX WIDTH menuContainer */
+
+/* FIX ECOMBSKA- */
+.ItxGiftCardPage .subMenu .table {
+	margin-bottom: 0;
+}
+/* END FIX ECOMBSKA- */
+
+@media only screen and (max-width: 768px) {
+/* FIX ECOMBSKA-5262 */
+	.cross-selling-button {
+		display: none;
+	}
+/* END FIX ECOMBSKA-5262 */
+}
+
+
+
+/*************************
+*        FIXES           *
+/* Fix ECOMBSKA-3183 
+**************************/
+
+.breadcrumb span:first-child{
+    display:inline
+}
+
+.breadcrumb > span:first-child {
+  display: none;
+}
+
+li.hideVirtual {
+    display: none;
+}
+div.table-cell.text-center.hideVirtual {
+    display: none;
+}
+div.table-cell.text-right.hideVirtual {
+    display: table-cell !important;
+}
+
+/*SOCIAL FIX*/
+#iPageContent {
+    min-height: 536px !important;
+    /*padding-bottom: 50px !important;*/
+    position: relative !important;
+}
+#LH_slideSocial {
+    bottom: 0 !important;
+    position: absolute !important;
+    z-index: 10 !important;
+}
+#LH_slideSocial_6 {
+    bottom: 0 !important;
+    position: absolute !important;
+    z-index: 10 !important;
+}
+
+@media only screen and (max-width: 1280px) {
+  #iPageContent {
+      min-height: inherit !important;
+  }
+}
+
+/*************************************
+* Fix Tallas Reserva en Tienda ECOMBSKA-3157 *
+*************************************/
+
+.stockStores .open>ul>li {
+	max-height: 32px;
+}
+
+.stockStores .stockSizes {
+	max-height: 32px;
+}
+
+
+/*************************************
+* Fix Desplegable Países WorldWide ECOMBSKA-3161 *
+*************************************/
+
+.storesWrapper{
+	padding-bottom:	15px;
+	border-bottom: 2px solid #000;
+	bottom:auto;
+}
+
+/* Fix China Doble Menu */
+#女装-link-submenu.singleCategory{
+    display: none;
+}
+
+/* START ECOMBSKA-3931 */
+.sidebarnav > .categoryHighlighted {
+	margin-top: 20px;
+}
+.sidebarnav > .categoryHighlighted ~ .categoryHighlighted {
+	margin-top: 0;
+}
+/* END ECOMBSKA-3931 */
+
+/* FIX quitar en el módulo del medio de promos - Literal NEW */
+.dvPromos > .gtmPromoSpecialPrices span > span.txtSpecialPrices01 {
+    display: none;
+}
+
+/* Fix quitar redes sociales en apartado SOCIAL, centrar a posterior */
+#social-menu {
+    display: none !important;
+}
+.subMenu .table-cell {
+    padding-bottom: 30px !important;
+}
+.subMenu .separator {
+    border-left: 1px solid #000 !important;
+}
+
+
+.view-6-link {
+	display: inline-block !important;
+}
+
+@media only screen and (max-width: 1280px) {
+	.view-6-link {
+		display: none !important;
+	}
+	.search-wrapper .view-6-link,
+	.inline-search-container  .view-6-link {
+		display: inline-block !important;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.search-wrapper .view-6-link,
+	.inline-search-container  .view-6-link {
+		display: none !important;
+	}
+}
+
+/*FIX para resolucion 6 */
+/*
+@media screen and (max-width: 1365px) {
+	.view-6-link {
+	    display: none !important;
+	}
+}
+*/
+
+
+@media screen and (max-width: 768px) and (min-width: 128px) {
+  .delivery-panel p {
+    margin-bottom: 20px;
+  }
+  .delivery-panel h5 {
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+}
+
+/*Fix para que las imagenes CTA del menú no se solamen con el separador en resolución de portatil 1366 x 768*/
+
+@media only screen and (min-width: 1509px) and (max-width: 1919px) {
+  .subMenu .col-6 li.submenu-img {
+    width: 181px;
+  }
+  .subMenu .col-6 .submenu-img .img-responsive {
+    width: 181px;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1508px) {
+  .subMenu .col-6 li.submenu-img {
+    width: 150px;
+  }
+  .subMenu .col-6 .submenu-img .img-responsive {
+    width: 150px;
+  }
+}
+
+
+/* Fix menu superior en ipad no salte de línea */
+@media only screen and (min-width: 768px) and (max-width: 876px) {
+    .mainMenu nav ul li a {
+        padding: 10px;
+    }
+    #menuContainer.container-fluid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+/* Fix se elimina fondo de experimental, en firefox generaban los colores background rojo */
+#prodinfo #prodinfo.grid-col6 .prodinfo ul.color-swatches {
+    background-color: transparent !important;
+}
+
+/*Fix para maquetar el modal de coming soon en móvil*/
+@media screen and (max-width: 768px) and (min-width: 128px) {
+	/* FIX ECOMBSKA-7134 */
+	#itxAjaxProductPage .prodInfo .prices > span.productPrice {
+		font-size: 18px;
+	}
+
+	#itxAjaxProductPage .product-description .sizes li {
+		margin-top: 12px;
+	}
+	/* END FIX ECOMBSKA-7134 */
+	
+  #itxStockNotificationPage .stockNotification {
+    width: 100%;
+    padding-left: 10px;
+  }
+  #itxStockNotificationPage .ib-top img{
+    display:none;
+  }
+  #itxStockNotificationPage #stockNotificationForm li{
+    margin: 5px 0;
+  }
+  #itxStockNotificationPage #stockNotificationForm input[type='submit']{
+    width:100%;
+  }
+  #itxStockNotificationPage #stockNotificationForm #stockNotification-policyCopy a{
+    margin-left:5px;
+  }
+}
+
+/* Fix Slider on IE */
+
+.carouselGrande .itemAPP.item h2,
+.carouselGrande .itemAPP.item .buttons,
+.carouselGrande .itemAPP.item p.txtLegals {
+  left: auto;
+}
+
+/*************************************
+* + Espacio footer Home*
+*************************************/
+footer {
+  margin-top: 50px;
+}
+/* FIN + Espacio footer Home */
+/*
+ECOMBSKA-5114
+[FIX] Desktop // Cabecera // Aumentar tamaño logo Bershka
+*/
+.header .header__brand img {
+    width: auto;
+    height: 33px;
+  }
+
+@media screen and (max-width: 768px) {
+
+  .header .header__brand img {
+  	width: auto;
+  	height: 20px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .header .header__brand img {
+    width: auto;
+    height: 18px;
+  }
+
+}
+
+@media screen and (max-width: 325px) {
+
+  #payment-wrapper .payment-name {
+    line-height: 1.25em;
+    margin-top: 5px;
+    font-size: 16px;
+  } 
+}
+
+/* ICONO GUÍA REGALOS */
+
+li#link-1010174011 a:after {
+  background: url(../images/gif_menu.gif?20161124180424) no-repeat;
+  content: "";
+  width: 30px;
+  height: 30px;
+  top: -15px;
+  right: -5px;
+  position: absolute;
+  display: inline-block;
+}
+
+li#link-1010174011 a,
+li#link-mobile-1010174011 a{
+  color: #b1961a;
+}
+
+/* END ICONO GUÍA REGALOS */
+
+/*FIX Shopguide FAQ*/
+.ico-cycle {
+  background-position: -492px -41px;
+}
+
+.ico40-faq {
+  background-position: -560px -112px;
+}
+
+/*BEGIN FIX TR fuente incorrecta*/
+
+.tr_TR body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tr_TR button, .tr_TR input[type=button], .tr_TR input[type=submit], .tr_TR .btn{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*END FIX TR fuente incorrecta*/
+
+/* FIX MAQUETA BANNER TOP MOBILE NL AT SE DK FI */
+@media (max-width: 890px) { 
+  .de_AT .BannerTop.BannerTopWhite .text01,
+  .en_AT .BannerTop.BannerTopWhite .text05,
+  .nl_NL .BannerTop.BannerTopWhite .text01,
+  .en_NL .BannerTop.BannerTopWhite .text05,
+  .en_SE .BannerTop.BannerTopWhite .text05,
+  .sv_SE .BannerTop.BannerTopWhite .text05,
+  .en_FI .BannerTop.BannerTopWhite .text05,
+  .da_DK .BannerTop.BannerTopWhite .text05,
+  .en_DK .BannerTop.BannerTopWhite .text05 {
+    display: none !important;
+  }
+
+}
+/* END FIX MAQUETA BANNER TOP*/
+/* Anadir mensaje pagos Rusia */
+.shipping-areas {
+    background-color: #EDEDED;
+    padding: 15px;
+    border-top:none;
+}
+/* END Anadir mensaje pagos Rusia */
+
+/*Video Youtube Eliminado Mobile */
+/*@media (max-width: 890px) { 
+    #itxCategoryPage .container.video {
+        display: none;
+    }
+}*/
+
+/* FIX PARRILLA */
+@media only screen and (min-width: 1920px) {
+	.category-breadcrumb {
+			padding-left: 0;
+	}
+}
+
+/*FIX Filters*/
+@media screen and (max-width:768px){
+  .ua-mobile-iphone,
+  .ua-mobile{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .ua-mobile-iphone .filter-title-ico{
+    top:0px;
+  }
+  .ua-mobile-iphone .filter-title,
+  .ua-mobile-iphone .filter-content-element-group{
+    padding-bottom: 13px;
+  }
+  .filter-content-slider {
+    padding-bottom: 10px;
+  }
+
+  .filter-title-ico{
+    float: right;
+  }
+  .ua-mobile-iphone .filter-title,
+  .filter-content-element{
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+  }
+
+  .filter-container {
+    margin-bottom: 15px;
+    border-bottom: solid 1px #d6d6d6;
+  }
+  .filter-title {
+    height: 37px;
+  }
+  .grid-filter-modal .grid-filter-modal-container{
+    padding: 5px 20px;
+  }
+  .filter-content-element .filter-content-element-image{
+    height: 30px;
+    width: 30px;
+  }
+  .grid-filter-modal-container .filter-content-element-check{
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .ui-slider .ui-slider-handle:after{
+    width: 20px;
+    height: 20px;
+  }
+
+  .ui-slider .ui-slider-handle{
+    top:-15px;
+    height: 35px;
+    width: 35px;
+  }
+
+}
+
+/*END FIx*/
+
+/*FIX ECOMBSKA-5966 [FIX] USA // Modificaciones varias */
+.en_US #myAccountReturnAddressForm0 .formControl:last-child,
+.en_US #myAccountReturnAddressForm0 .formControl:nth-last-child(2),
+.es_US #myAccountReturnAddressForm0 .formControl:last-child,
+.es_US #myAccountReturnAddressForm0 .formControl:nth-last-child(2)
+{
+  display: block;
+}
+
+.en_US #myAccountReturnAddressForm0 .formControl,
+.es_US #myAccountReturnAddressForm0 .formControl {
+  display: none;
+}
+
+.en_US .return-orders .double-address,
+.es_US .return-orders .double-address{
+  display:none;
+}
+
+/*END FIX ECOMBSKA-5966 [FIX] USA // Modificaciones varias */
+
+/* FIX SCROLL BUSCADOR MOBILE ANDROID */
+@media only screen and (max-width: 768px) {
+	.searchResults .resultsList {
+		height: 100%;
+	}
+}
+/* FIX SCROLL BUSCADOR MOBILE */
+
+/* FIX checkout summary Turkia y Croacia 
+   Es un bug que viene causado por la fuente que se usa para estos paises, se mantendrá el fix mientras no se cambien las fuentes
+*/
+
+.tr_TR .wrapper-checkout #summary-wrapper,
+.hr_HR .wrapper-checkout #summary-wrapper {
+  margin-left: 19px;
+}
+
+/* END FIX */
+
+/* FIX GiftCard datepicker ECOMBSKA-6177 */
+@media only screen and (max-width: 1024px){
+  #itxGiftCardVirtualPage .ui-datepicker {
+    margin-top: -368px;
+    margin-left: 0;
+    z-index: 100 !important;
+  }
+}
+/* END FIX */
+
+/* FIX ECOMBSKA-6640 */
+
+@media screen and (max-width: 1024px) and (min-width: 128px){
+
+  .myAccount .address .edit{
+    float: right;
+    position: static;
+  }
+
+}
+
+/* END FIX */
+
+/* FIX fuente rumania */
+
+.ro_RO body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ro_RO .strong,
+.ro_RO h1,
+.ro_RO h2,
+.ro_RO h3,
+.ro_RO h4,
+.ro_RO th,
+.ro_RO blockquote p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* END FIX */
+
+/* FIX TIPO LETRA BIELORUSIA */
+.ru_BY body{font-family:"roboto_condensedlight", Arial, sans-serif;}
+/* EN FIX TIPO LETRA BIELORUSIA*/
+
+
+/* FIX CORRECCIONES JAPÓN */
+.en_JP .product-description .sizes a,
+.ja_JP .product-description .sizes a {
+      padding: 10px 13px;
+}
+.en_JP .product-description .sizes a > span,
+.ja_JP .product-description .sizes a > span {
+      margin: -10px 0px;
+}
+/* END FIX CORRECCIONES JAPÓN */
+
+/* FIX ECOMBSKA-6764 */
+.guestReturnRequest .formControl.validDaum.valid:after {
+    top: 65px;
+}
+
+@media screen and (max-width:1024px) {
+.guestReturnRequest .formControl.validDaum.valid:after {
+      top: 78px;
+  }
+}
+/* END FIX ECOMBSKA-6764 */
+
+/* FIX ECOMBSKA-6782 */
+.ko_KR .openHourContainer, .en_KR .openHourContainer {width:240px;}
+/* END FIX ECOMBSKA-6782 */
+
+/* FIX GUIRA DE COMPRA */
+.shoppingGuide-articles .shipping table.sg-shipping-methods p.sg-shipping-fee {
+  height: auto;
+}
+/* END FIX GUIA DE COMPRA */
+
+/*
+ * ITX-COMMON-CUSTOM.CSS
+ */
+.privacy-policy-us h5 {
+	padding: 4px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	margin-bottom: 5px;
+}
+
+/* FIX TAILORING */
+.precio-conjunto {
+	display: none;
+}
+.product-description .precio-conjunto {
+	display: initial;
+}
+/* END FIX TAILORING */
+
+/* FIX CENTRAR MENU SOLO FUNCIONA CON DOS OPCIONES */
+/*
+.mainMenu nav.first-level ul li {
+	min-width: 125px;
+	text-align: left;
+}
+.mainMenu nav.first-level ul li:first-child {
+	text-align: right;
+}
+*/
+/* END FIX */
+
+.cn10 .content {
+	text-align:left;
+}
+.cn10 input{
+	border-bottom: 2px solid black;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	padding: 0;
+	height: 30px;
+}
+.cn10 h1{
+	font-size: 26px;
+    font-weight: bold;
+}
+.cn10 h1 span{
+	color: #fff;
+    background: #000;
+    line-height: 1.3rem;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+}
+.cn10 .content .subtitle{
+	margin: 10px 0;
+}
+
+.cn10 button{
+	padding: 12px 45px;
+    height: inherit;
+}
+
+.cn10 button:focus{
+	text-decoration: underline;
+}
+.cn10 .col-50{
+	width:50%;
+	float:left;
+	position:relative;
+	display: inline-block;
+	height: 100%;
+  overflow: hidden;
+}
+.cn10.newsletter .wrapper {
+    white-space: normal;
+}
+@media screen and (max-width: 768px) and (min-width: 128px){
+	.cn10 .col-50{
+		width:100%;
+		float:left;
+		position:relative;
+		padding: 0 !important;
+		overflow: auto;
+	}
+	.cn10-container .ui-dialog-content.modal {
+    padding: 60px 20px 40px 40px;
+	}
+	
+	.ui-dialog.cn10-container {
+		height: 90% !important;
+		width: 90% !important;
+		top: 5% !important;
+		left: 5% !important;
+	}
+}
+.cn10 .col-50.col-image {
+	line-height: 0;
+}
+.cn10 .col-50.col-form{
+	padding: 35px;
+	line-height: 0;
+}
+.cn10 img{
+	height: 100%;
+	width: auto;
+}
+.cn10 .check{
+	margin-top: 1em;
+}
+
+.cn10 span{
+	font-weight: normal;
+}
+
+.cn10 .form-elements-container {
+	margin: 1.6em 0;
+}
+
+.cn10 label {
+	margin-right: 20px;
+}
+.cn10 .checkbox {
+	float: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+.cn10 .check label span {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 28px;
+    max-width: 90%;
+}
+.cn10-container .ui-dialog-content.modal{
+	padding:0;
+	border: 1px solid black;
+	box-shadow: inherit;
+	-webkit-box-shadow: inherit;
+}
+#ItxNewslettterPage.cn10 {
+	overflow: hidden;
+}
+.converse{
+	padding: 0 !important;
+}
+.converse .cn10 .subtitle{
+	text-align: left;
+	font-size: 16px;
+	letter-spacing: 1.3px;
+	white-space: normal;
+}
+.converse .cn10 .subtitle:first-letter{
+	text-transform: capitalize;
+}
+.converse .cn10 .subtitle2{
+	text-align: left;
+	font-size: 10px;
+	white-space: normal;
+	line-height: 1rem;
+}
+.converse .cn10 h1 span{
+	white-space:normal;
+}
+@media screen and (max-width: 768px) and (min-width: 128px){
+	.converse .subtitle2,
+	.converse .txtConverse1 {
+		text-align: center;
+	}
+	.converse #ItxConversePage{
+		padding: 20px !important;
+	}
+	.converse .wrapper,
+	.converse .cn10 .subtitle2 {
+		text-align: center;
+	}
+}
+
+.blink-label {
+  color: #fc2f2f;
+	margin-left: 5px;
+  font-family: "bentonsansmedium";
+  -webkit-animation-name: blinkerHeader;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: blinkerHeader;
+  -moz-animation-duration: 3s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: blinkerHeader;
+  -o-animation-duration: 3s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-name: blinkerHeader;
+  -ms-animation-duration: 3s;
+  -ms-animation-timing-function: linear;
+  -ms-animation-iteration-count: infinite;
+  animation-name: blinkerHeader;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.video-container {
+  background: rgba(255,255,255,0.9);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 10000;
+  position: absolute;
+}
+
+.video-container-video {
+  position: absolute;
+  overflow: hidden;
+  z-index: 10002;
+}
+.video-container-close {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 10px;
+  top: 10px;
+  z-index: 10003;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-image: url(../images/sprite.svg?t=20170915);
+}
+
+.video-container-close path{
+  fill:#fff;
+}
+
+.mainMenu .boo-category:after,
+.subMenu a.boo-category:after,
+.sideBarDevices a.boo-category:after,
+.facets .boo-category a:after,
+.grid-filter-container .filter-content-element-link.boo-category span:after {
+	content: "BOO!";
+}
+
+/* FIX OLAPIC PARRILLA */
+.olapic .olapic-slider-footer {
+    padding: 0px 5px 40px !important;
+}
+
+.olapic .olapic-footer-buttons {
+	top: 20px !important;
+}
+/* END FIX OLAPIC PARRILLA */
+
+/*FIX MENU NODESKTOP*/
+
+.category-tree-element-link.category-tree-element-link-1010320005{
+  display: none !important;
+}
+
+.category-tree-element-link.category-tree-element-link-1010320019{
+  display: none !important;
+}
